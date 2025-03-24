@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test'){
             steps{
-                echo "I'm in testing face"
+                echo "I'm in testing"
             }
         }
         stage('Deploy'){
